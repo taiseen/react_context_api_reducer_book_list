@@ -18,14 +18,14 @@ function BookContextProvider(props) {
 
 
     // trying to tab sync with multiple tabs 
-    window.addEventListener('storage', (e) => {
+    // window.addEventListener('storage', (e) => {
 
-        if (e.key === 'books') {
-            console.log('clicking');
-            //return window.JSON.parse(localStorage.getItem('books'));
-            dispatch({ type: 'RELOAD' });
-        }
-    });
+    //     if (e.key === 'books') {
+    //         console.log('clicking');
+    //         //return window.JSON.parse(localStorage.getItem('books'));
+    //         dispatch({ type: 'RELOAD' });
+    //     }
+    // });
 
 
     return (
